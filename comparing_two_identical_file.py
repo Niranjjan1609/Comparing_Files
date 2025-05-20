@@ -128,6 +128,7 @@ def compare_binary_files(file1_path, file2_path):
         print("The files are different (binary comparison).")
 
 if __name__ == "__main__":
-    file_path_1 = "visibility_outbound_transaction_report 18-05-2025.csv"  # Replace with your file paths
-    file_path_2 = "visibility_outbound_transaction_report_2025-05-19.csv"
+    file_path_1 = input("Enter the Fist file name with full path: \n") # Replace with your file paths
+    file_path_2 = input("Enter the Second file name with full path: \n") # Replace with your file paths
+    
     compare_files(file_path_1, file_path_2)
